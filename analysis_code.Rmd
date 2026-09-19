@@ -89,8 +89,11 @@ addmargins(table(C1survey$bmonth, C1survey$bseason))
 ##### 7. Pick your favorite variable or variables to analyze, come up with a question you want to answer with that variable or variables, generate the code, and provide an answer to your question. Describe what you did using comments (i.e. #'s).
 7. Question: Which season has the most classmates' birthdays?
 
-# Count the number of classmates born in each season
+# Count the number of classmates born in each season.
+# The table function gives the frequency of classmates
+# in each birth season.
 table(C1survey$bseason)
+
 # Answer: Fall has the most classmates' birthdays,
 # with 12 classmates born in Fall.
 
